@@ -8,18 +8,17 @@
 int main(void)
 {
 	char letter = 'a';
-	int i;
 
-	for (i = 0; i < 26; i++)
+	while (letter <= 'z')
 	{
-		if (letter != 'e' || letter != 'q')
+		if (letter == 'e' || letter == 'q')
 		{
-			putchar(letter + i);
-			i += 1;
+			letter += 1;
 		}
 		else
 		{
-		 i += 1;
+			putchar(letter);
+			letter += 1;
 		}
 	}
 	putchar('\n');
