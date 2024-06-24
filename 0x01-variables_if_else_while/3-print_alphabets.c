@@ -9,6 +9,7 @@ int main(void)
 	char lower_case = 'a';
 	char upper_case = 'A';
 	int i;
+
 	for (i = 0; lower_case < 26; i++)
 	{
 		putchar(lower_case + i);
