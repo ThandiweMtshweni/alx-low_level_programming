@@ -6,6 +6,7 @@
  */
 int main(void)
 {
+	/*main code*/
 	char letter = 'a';
 	int i;
 
