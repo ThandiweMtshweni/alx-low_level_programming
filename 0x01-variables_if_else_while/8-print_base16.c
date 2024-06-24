@@ -4,15 +4,15 @@
  *
  * Return: Always 0 (success)
  */
-int main (void)
+int main(void)
 {
 	char num;
 
-	for (num = '0'; num < 10; num ++)
+	for (num = '0'; num < 10; num++)
 	{
 		putchar(num);
 	}
-	for (num = 'a'; num < 'g'; num ++)
+	for (num = 'a'; num < 'g'; num++)
 	{
 		putchar(num);
 	}
