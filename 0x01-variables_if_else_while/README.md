@@ -1,1 +1,1 @@
-Variables,,if,else,while task
+Variables, if, else and while projects.
