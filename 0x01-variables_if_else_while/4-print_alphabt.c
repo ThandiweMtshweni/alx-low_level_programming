@@ -12,7 +12,9 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 	{
-		if(letter == 'e' || letter == 'q'){
+		if (letter == 'e' || letter == 'q')
+		{
+
 			i += 1;
 		}
 		else
