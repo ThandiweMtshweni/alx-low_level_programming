@@ -16,7 +16,7 @@ int main(void)
 		{
 			for (first = '0'; first <= '9'; first++)
 			{
-				if (!((first == sec) || (sec == third) || (sec > first) || (third > sec)))
+				if (!(first == sec) || (sec == third) || (sec > first) || (third > sec))
 				{
 					putchar(third);
 					putchar(sec);
@@ -24,12 +24,12 @@ int main(void)
 					if (!(first == '9' && third == '7' && sec == '8'))
 					{
 						putchar(',');
-						putchar(' ');
-					
+						putchar(' ');			
 					}
 				}
 			}
 		}
+		putchar ('\n');
 	}
 	return (0);
 }
