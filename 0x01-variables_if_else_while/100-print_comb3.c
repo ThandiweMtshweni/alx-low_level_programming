@@ -7,7 +7,7 @@
 int main(void)
 {
 	int num1 = '0';
-	int num2 = '0';
+	int num2 = '1';
 
 	while (num1 <= '9')
 	{
