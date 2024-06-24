@@ -12,15 +12,14 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 	{
-		if (letter == 'e' || letter == 'q')
+		if (letter != 'e' || letter != 'q')
 		{
-
+			putchar(letter + i);
 			i += 1;
 		}
 		else
 		{
-			putchar(letter);
-			i += 1;
+		 i += 1;
 		}
 	}
 	putchar('\n');
