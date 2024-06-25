@@ -15,7 +15,7 @@ int main(void)
 	{
 	i += x;
 	}
-	printf("%d\n", z);
+	printf("%d\n", i);
 	return (0);
 	}
 }
