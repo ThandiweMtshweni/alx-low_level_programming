@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Print the sum of all multiples of 3 or 5 up to 1024
  * Return: Always (success)
  */
 
@@ -15,7 +15,8 @@ int main(void)
 	{
 	i += x;
 	}
+	x++;
+	}
 	printf("%d\n", i);
 	return (0);
-	}
 }
