@@ -13,14 +13,14 @@ int main(void)
 	while (i < 50)
 	{
 	if (i == 0)
-	printf("%d", x);
+	printf("%ld", x);
 	else if (i == 1)
-	printf(", %d", z);
+	printf(", %ld", z);
 	else
 	{
 	z += x;
 	x = z - x;
-	printf(", %d", k);
+	printf(", %ld", k);
 	}
 	i++;
 	}
