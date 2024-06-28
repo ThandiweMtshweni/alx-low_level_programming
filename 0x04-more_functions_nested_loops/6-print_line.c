@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * print_line -Draws a line
- * @n:determines how long the line will be
+ * print_line - Draws a line
+ * @n: determines how long the line will be
+ *
  * Return:Always 0
  */
 
