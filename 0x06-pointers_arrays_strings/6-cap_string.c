@@ -18,7 +18,11 @@ char *cap_string(char *s)
 		{
 			s[0] = s[0] - 32;
 		}
-		if (s[str_count] == ' ' || s[str_count] == '\t' || s[str_count] == '\n' || s[str_count] == ',' || s[str_count] == ';' || s[str_count] == '.' || s[str_count] == '!' || s[str_count] == '?' || s[str_count] == '"' || s[str_count] == '(' || s[str_count] == ')' || s[str_count] == '{' || s[str_count] == '}')
+		if (s[str_count] == ' ' || s[str_count] == '\t' || s[str_count] == '\n'
+			|| s[str_count] == ',' || s[str_count] == ';' || s[str_count] == '.'
+			|| s[str_count] == '!' || s[str_count] == '?' || s[str_count] == '"'
+			|| s[str_count] == '(' || s[str_count] == ')' || s[str_count] == '{'
+			|| s[str_count] == '}')
 		{
 			if (s[str_count + 1] >= 97 && s[str_count + 1] <= 122)
 			{
