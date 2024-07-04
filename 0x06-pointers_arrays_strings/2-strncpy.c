@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * *_strncpy - copies the string
  * @dest: the destination string pointer
