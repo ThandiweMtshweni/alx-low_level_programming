@@ -12,7 +12,7 @@ char *rot13(char *s)
 	int a, b;
 	char rot_input[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char rot_output[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
-	
+
 	for (a = 0; s[a] != '\0'; a++)
 	{
 		for (b = 0; b < 52; b++)
