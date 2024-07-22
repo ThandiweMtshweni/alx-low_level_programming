@@ -6,7 +6,7 @@
  * @d: pointer to the struct dog
  * @name: name of the new dog
  * @age: new dog's age
- * owner: the dog owner
+ * @owner: the dog owner
  * Return: void
  */
 
