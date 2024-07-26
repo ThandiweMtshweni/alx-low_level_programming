@@ -36,7 +36,7 @@ void print_all(const char * const format, ...)
 			case 's':
 				prt_str = va_arg(spc, char*);
 				if (prt_str == NULL)
-					prt_str = "(null)"
+					prt_str = "(null)";
 				printf("%s", prt_str);
 				break;
 			default:
