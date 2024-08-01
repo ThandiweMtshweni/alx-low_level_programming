@@ -9,7 +9,7 @@
  * struct my_list - single linked list
  * @str: string
  * @len: the length of the string str
- * @pointer: pointer to the next node on the list
+ * @next: pointer to the next node on the list
  *
  * Description: single linked list
  */
@@ -17,7 +17,7 @@ typedef struct my_list
 {
 	char *str;
 	unsigned int len;
-	struct my_list *pointer;
+	struct my_list *next;
 } list_t;
 
 size_t print_list(const list_t *h);
