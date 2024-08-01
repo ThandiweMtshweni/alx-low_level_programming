@@ -6,18 +6,18 @@
 #include <string.h>
 
 /**
- * struct list_s - single linked list
+ * struct my_list - single linked list
  * @str: string
  * @len: the length of the string str
  * @pointer: pointer to the next node on the list
  *
  * Description: single linked list
  */
-typedef struct list_s
+typedef struct my_list
 {
 	char *str;
 	unsigned int len;
-	struct list_s *pointer;
+	struct my_list *pointer;
 } list_t;
 
 size_t print_list(const list_t *h);
