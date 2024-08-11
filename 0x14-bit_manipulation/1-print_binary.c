@@ -30,7 +30,6 @@ void print_binary(unsigned long int n)
 	char flag;
 
 	flag = 0;
-	
 	div = _pow(2, sizeof(unsigned long int) * 8 - 1);
 	while (div != 0)
 	{
