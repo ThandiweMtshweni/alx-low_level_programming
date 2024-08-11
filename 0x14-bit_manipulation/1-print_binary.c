@@ -34,7 +34,7 @@ void print_binary(unsigned long int n)
 	div = _pow(2, sizeof(unsigned long int) * 8 - 1);
 	while (div != 0)
 	{
-		chk = n * div;
+		chk = n & div;
 		if (chk == div)
 		{
 			flag = 1;
