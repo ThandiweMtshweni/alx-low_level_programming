@@ -6,30 +6,24 @@
  */
 int main(void)
 {
-	int first = '0';
-	int sec = '0';
-	int third = '0';
+	int i, j;
 
-	for (third = '0'; third <= '9'; third++)
+	for (i = 48; i <= 56; i++)
 	{
-		for (sec = '0'; sec <= 9; sec++)
+		for (j = 49; j <= 57; j++)
 		{
-			for (first = '0'; first <= '9'; first++)
+			if (j > i)
 			{
-				if (!(first == sec) || (sec == third) || (sec > first) || (third > sec))
+				putchar(i);
+				putchar(j);
+				if (i != 56 || j != 57)
 				{
-					putchar(third);
-					putchar(sec);
-					putchar(first);
-					if (!(first == '9' && third == '7' && sec == '8'))
-					{
-						putchar(',');
-						putchar(' ');			
-					}
+					putchar(',');
+					putchar(' ');
 				}
 			}
 		}
-		putchar ('\n');
 	}
+	putchar('\n');
 	return (0);
 }
